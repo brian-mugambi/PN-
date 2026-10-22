@@ -1,7 +1,0 @@
-.spts-share-preview{
-  margin:0 0 12px;padding:12px;max-height:40vh;max-height:40dvh;overflow:auto;
-  border:1px solid var(--line);border-left:2px solid var(--cyan);border-radius:12px;background:rgba(91,124,250,.035);
-  color:var(--white);font-size:.82rem;line-height:1.55;white-space:pre-wrap;overflow-wrap:anywhere;
-}
-.spts-share-actions{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin:12px 0 8px;}
-.spts-share-actions > *{text-align:center;justify-content:center;}

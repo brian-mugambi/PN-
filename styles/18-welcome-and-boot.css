@@ -1,6 +1,0 @@
-.spts-welcome{padding-top:min(14vh,96px);}
-.spts-welcome-title{font-size:clamp(2.2rem,8vw,3.6rem);line-height:1.05;color:var(--white);margin-bottom:16px;}
-.spts-welcome-lead{max-width:34rem;color:var(--ink);font-size:1.05rem;line-height:1.55;margin-bottom:18px;}
-.spts-welcome-actions{display:flex;flex-wrap:wrap;gap:12px;}
-.spts-welcome-actions button{padding:12px 20px;}
-.spts-welcome-back{margin-bottom:6px;}
