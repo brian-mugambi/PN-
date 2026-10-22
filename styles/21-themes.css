@@ -1,0 +1,34 @@
+.spts-theme-picker{margin-top:14px;padding-top:14px;border-top:1px solid var(--faintest);}
+.spts-theme-title{font-size:.78rem;font-weight:600;color:var(--muted);margin-bottom:8px;}
+.spts-theme-options{display:flex;flex-wrap:wrap;gap:8px;}
+.spts-card button.spts-theme-chip{min-height:38px;padding:8px 16px;font-size:.85rem;background:#fff;color:var(--ink);border:1.5px solid var(--line);box-shadow:none;}
+.spts-card button.spts-theme-chip.on{border-color:var(--cyan);color:var(--cyan);background:#eef1ff;}
+.spts-card button.spts-theme-chip-gold{background:linear-gradient(120deg,#fff3d6,#ffe2b0);color:#7a4a05;}
+.spts-card button.spts-theme-chip-gold.on{border-color:#d99a2b;}
+.spts-card button.spts-theme-chip-vibe{background:linear-gradient(120deg,#ffe3f1,#e4e0ff 50%,#d9f5ff);color:#4b3d8f;}
+.spts-card button.spts-theme-chip-vibe.on{border-color:#a78bfa;}
+.spts-card button.spts-theme-chip-official{background:#eaf2ff;color:#1d4ed8;}
+.spts-card button.spts-theme-chip-official.on{border-color:#2563eb;}
+
+.spts-public.spts-premium .spts-profile-hero{background:linear-gradient(180deg,#fffaf0,#fff3dc);border-color:rgba(217,154,43,.38);}
+.spts-public.spts-premium .spts-profile-handle{color:#a8660a;}
+.spts-public.spts-premium .spts-premium-badge{background:linear-gradient(120deg,#ffc55c,#ff8a3d);color:#241300;border:0;}
+.spts-public.spts-premium .spts-profile-hero-actions button,.spts-public.spts-premium .spts-chat .spts-chat-compose button.spts-chat-send{background:linear-gradient(120deg,#ffc55c,#ff8a3d);color:#241300;}
+.spts-public.spts-premium .spts-profile-hero-actions .spts-link-btn{background:#fff7e6;color:#a8660a;border-color:rgba(217,154,43,.4);}
+.spts-public.spts-premium .spts-chat-me .spts-chat-bubble,.spts-public.spts-premium .spts-chat-me .spts-chat-bubble p,.spts-public.spts-premium .spts-chat-me .spts-chat-bubble span,.spts-public.spts-premium .spts-chat-me .spts-chat-bubble div{background:linear-gradient(120deg,#ffc55c,#ff8a3d)!important;color:#241300!important;}
+
+.spts-public.spts-theme-vibe .spts-profile-hero{background:linear-gradient(150deg,#ffe8f3 0%,#ebe6ff 48%,#dcf6ff 100%);border-color:rgba(167,139,250,.4);}
+.spts-public.spts-theme-vibe .spts-profile-handle{color:#8b5cf6;}
+.spts-public.spts-theme-vibe .spts-premium-badge{background:linear-gradient(120deg,#ff7eb6,#8b5cf6,#38bdf8);color:#fff;border:0;}
+.spts-public.spts-theme-vibe .spts-profile-hero-actions button,.spts-public.spts-theme-vibe .spts-chat .spts-chat-compose button.spts-chat-send{background:linear-gradient(120deg,#ff7eb6,#8b5cf6);color:#fff;}
+.spts-public.spts-theme-vibe .spts-profile-hero-actions .spts-link-btn{background:#f5f0ff;color:#7c3aed;border-color:rgba(139,92,246,.35);}
+.spts-public.spts-theme-vibe .spts-meta-chip:hover,.spts-public.spts-theme-vibe .spts-see-more{color:#7c3aed;border-color:#a78bfa;}
+.spts-public.spts-theme-vibe .spts-chat-me .spts-chat-bubble,.spts-public.spts-theme-vibe .spts-chat-me .spts-chat-bubble p,.spts-public.spts-theme-vibe .spts-chat-me .spts-chat-bubble span,.spts-public.spts-theme-vibe .spts-chat-me .spts-chat-bubble div{background:linear-gradient(120deg,#ff7eb6,#8b5cf6)!important;color:#fff!important;}
+
+.spts-public.spts-theme-official{--cyan:#1d4ed8;}
+.spts-public.spts-theme-official .spts-profile-hero{background:#ffffff;border:1px solid #cfe0ff;border-top:6px solid #2563eb;}
+.spts-public.spts-theme-official .spts-profile-handle{color:#1d4ed8;}
+.spts-public.spts-theme-official .spts-premium-badge{background:#2563eb;color:#fff;border:0;}
+.spts-public.spts-theme-official .spts-profile-hero-actions button,.spts-public.spts-theme-official .spts-chat .spts-chat-compose button.spts-chat-send{background:#2563eb;color:#fff;}
+.spts-public.spts-theme-official .spts-profile-hero-actions .spts-link-btn{background:#eff5ff;color:#1d4ed8;border-color:#bfd4ff;}
+.spts-public.spts-theme-official .spts-chat-me .spts-chat-bubble,.spts-public.spts-theme-official .spts-chat-me .spts-chat-bubble p,.spts-public.spts-theme-official .spts-chat-me .spts-chat-bubble span,.spts-public.spts-theme-official .spts-chat-me .spts-chat-bubble div{background:#2563eb!important;color:#fff!important;}

@@ -1,0 +1,60 @@
+.spts-media-frame{
+ position:relative;width:100%;max-width:460px;margin:0 auto;
+ border-radius:14px;overflow:hidden;
+ background:linear-gradient(160deg,rgba(91,124,250,0.07),rgba(139,108,246,0.05));
+ display:flex;align-items:center;justify-content:center;
+ aspect-ratio:9 / 16;max-height:88vh;
+ transition:aspect-ratio .25s ease;
+}
+.spts-media-square{max-width:520px;}
+.spts-media-landscape{max-width:640px;}
+.spts-media-el{
+ width:100%;height:100%;object-fit:contain;display:block;
+ background:#000;
+}
+img.spts-media-el{background:transparent;cursor:zoom-in;}
+video.spts-media-el{cursor:pointer;}
+.spts-media-play{
+ position:absolute;inset:0;margin:auto;width:64px;height:64px;
+ display:flex;align-items:center;justify-content:center;
+ border-radius:50%;border:1px solid rgba(255,255,255,0.35);
+ background:rgba(6,6,15,0.55);backdrop-filter:blur(2px);
+ color:var(--white);padding:0;
+ transition:transform .15s ease,background .15s ease;
+}
+.spts-media-play:hover{transform:scale(1.06);background:rgba(6,6,15,0.7);}
+.spts-media-play-icon{font-size:1.35rem;margin-left:3px;}
+.spts-media-expand{
+ position:absolute;top:10px;right:10px;
+ width:32px;height:32px;padding:0;display:flex;align-items:center;justify-content:center;
+ border-radius:8px;border:1px solid rgba(255,255,255,0.25);
+ background:#ffffff;color:var(--white);font-size:0.95rem;font-weight:400;
+ opacity:0.85;
+}
+.spts-media-expand:hover{opacity:1;border-color:var(--cyan);}
+
+.spts-lightbox-backdrop{
+ position:fixed;inset:0;z-index:1002;
+ background:rgba(0,0,0,0.92);
+ display:flex;align-items:center;justify-content:center;padding:24px;
+ animation:spts-fade .15s ease-out;
+}
+.spts-lightbox-stage{
+ max-width:100%;max-height:100%;display:flex;align-items:center;justify-content:center;
+}
+.spts-lightbox-media{
+ max-width:100%;max-height:90vh;object-fit:contain;border-radius:8px;
+}
+.spts-lightbox-close{
+ position:fixed;top:18px;right:18px;width:38px;height:38px;padding:0;
+ border-radius:50%;border:1px solid rgba(255,255,255,0.3);
+ background:#ffffff;color:var(--white);font-size:1rem;
+}
+.spts-lightbox-close:hover{border-color:var(--cyan);}
+
+.spts-dashboard-post-hint{margin-top:10px;}
+
+@media (max-width:480px){
+ .spts-media-frame{max-width:100%;max-height:80vh;}
+ .spts-media-square,.spts-media-landscape{max-width:100%;}
+}

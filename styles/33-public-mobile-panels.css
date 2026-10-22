@@ -1,0 +1,204 @@
+@media (max-width: 900px) {
+  html.spts-panel-open,
+  html.spts-panel-open body {
+    height: 100%;
+    overflow: hidden !important;
+    overscroll-behavior: none;
+  }
+
+  .spts-public .spts-profile-layout.spts-has-panel {
+    display: block !important;
+    position: static !important;
+    height: auto;
+    min-height: 0 !important;
+    transform: none !important;
+    filter: none !important;
+    perspective: none !important;
+    contain: none !important;
+    animation: none !important;
+  }
+
+  .spts-public .spts-profile-layout.spts-has-panel > .spts-profile-main {
+    display: none !important;
+  }
+
+  .spts-public aside.spts-profile-panel {
+    position: fixed !important;
+    inset: var(--pn-header) 0 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+    overscroll-behavior: none;
+    border: 0;
+    border-radius: 0;
+    z-index: 950;
+    background: var(--bg);
+    animation: spts-panel-up .18s ease-out;
+  }
+
+  .spts-public aside.spts-profile-panel > .spts-panel-bar {
+    position: relative;
+    top: auto;
+    flex: 0 0 auto;
+    width: 100%;
+    min-height: 58px;
+    margin: 0;
+    padding: 9px 14px;
+    gap: 10px;
+    justify-content: flex-start;
+    background: rgba(255,255,255,.97);
+    border-bottom: 1px solid var(--line);
+    z-index: 1;
+  }
+
+  .spts-public aside.spts-profile-panel .spts-panel-title {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .spts-public aside.spts-profile-panel .spts-panel-title h2 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.3;
+    color: var(--white);
+  }
+
+  .spts-public aside.spts-profile-panel > .spts-card {
+    flex: 1 1 0;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    margin: 0;
+    padding: 12px 12px calc(18px + env(safe-area-inset-bottom, 0px));
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .spts-public aside.spts-profile-panel .spts-post-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .spts-public aside.spts-profile-panel .spts-post-grid > * {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .spts-public aside.spts-profile-panel .spts-post-grid .spts-post {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .spts-public aside.spts-profile-panel .spts-post-grid .spts-media-frame,
+  .spts-public aside.spts-profile-panel .spts-post-grid img,
+  .spts-public aside.spts-profile-panel .spts-post-grid video {
+    max-width: 100%;
+  }
+
+  .spts-public aside.spts-profile-panel-chat > .spts-chat {
+    display: flex !important;
+    flex: 1 1 0;
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    margin: 0;
+    padding: 12px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+    overflow: hidden;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .spts-public aside.spts-profile-panel-chat .spts-chat-head {
+    flex: 0 0 auto;
+    min-width: 0;
+    padding-bottom: 10px;
+  }
+
+  .spts-public aside.spts-profile-panel-chat .spts-chat-head > div {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .spts-public aside.spts-profile-panel-chat .spts-chat-thread {
+    flex: 1 1 0 !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .spts-public aside.spts-profile-panel-chat .spts-chat-compose {
+    flex: 0 0 auto;
+    width: 100%;
+    min-width: 0;
+    gap: 8px;
+    padding-top: 10px;
+  }
+
+  .spts-public aside.spts-profile-panel-chat .spts-chat-compose textarea {
+    flex: 1 1 auto;
+    width: 0;
+    min-width: 0;
+    max-width: none;
+    max-height: 24dvh;
+    box-sizing: border-box;
+  }
+
+  .spts-public aside.spts-profile-panel-chat .spts-chat-compose .spts-chat-send {
+    flex: 0 0 42px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .spts-public aside.spts-profile-panel-chat .spts-chat-foot,
+  .spts-public aside.spts-profile-panel-chat .spts-error-box {
+    flex: 0 0 auto;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .spts-public aside.spts-profile-panel > .spts-panel-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .spts-public aside.spts-profile-panel > .spts-card {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  .spts-public aside.spts-profile-panel-chat > .spts-chat {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+}

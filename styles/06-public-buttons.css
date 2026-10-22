@@ -1,0 +1,25 @@
+.spts-profile-hero-actions{gap:8px;margin-top:20px;}
+.spts-profile-hero-actions button,
+.spts-profile-hero-actions .spts-link-btn{
+ display:inline-flex;align-items:center;gap:6px;
+ padding:6px 14px;border-radius:999px;font-size:0.76rem;font-weight:500;letter-spacing:0.02em;
+ background:rgba(91,124,250,0.07);color:var(--cyan);border:1px solid rgba(91,124,250,0.35);
+ text-decoration:none;cursor:pointer;transition:background .15s ease,border-color .15s ease,color .15s ease;
+}
+.spts-profile-hero-actions button:hover,
+.spts-profile-hero-actions .spts-link-btn:hover{background:rgba(91,124,250,0.14);border-color:var(--cyan);}
+.spts-profile-hero-actions button[aria-expanded="true"]{background:var(--cyan);color:#ffffff;border-color:var(--cyan);}
+.spts-hero-actions-2{margin-top:10px;gap:4px;}
+.spts-profile-hero-actions.spts-hero-actions-2 button,
+.spts-profile-hero-actions.spts-hero-actions-2 .spts-link-btn{
+ padding:2px 8px;font-size:0.7rem;border:0!important;background:transparent!important;color:var(--muted)!important;opacity:0.8;
+}
+.spts-profile-hero-actions.spts-hero-actions-2 button:hover,
+.spts-profile-hero-actions.spts-hero-actions-2 .spts-link-btn:hover{color:var(--cyan)!important;opacity:1;}
+.spts-public.spts-premium .spts-profile-hero-actions button,
+.spts-public.spts-premium .spts-profile-hero-actions .spts-link-btn{background:rgba(255,197,92,0.08);color:#a8660a;border-color:rgba(255,197,92,0.4);}
+.spts-public.spts-premium .spts-profile-hero-actions button:hover,
+.spts-public.spts-premium .spts-profile-hero-actions .spts-link-btn:hover{background:rgba(255,197,92,0.16);border-color:#a8660a;}
+.spts-public.spts-premium .spts-profile-hero-actions button[aria-expanded="true"]{background:linear-gradient(120deg,#ffc55c,#ff8a3d);color:#241300;border-color:transparent;}
+.spts-public.spts-premium .spts-profile-hero-actions.spts-hero-actions-2 button:hover,
+.spts-public.spts-premium .spts-profile-hero-actions.spts-hero-actions-2 .spts-link-btn:hover{color:#a8660a!important;}

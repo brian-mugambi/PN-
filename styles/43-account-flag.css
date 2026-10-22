@@ -1,0 +1,7 @@
+.spts-acct-flag{position:sticky;top:calc(var(--pn-header) + 56px);z-index:26;display:grid;gap:8px;margin:10px 0;padding:14px 16px;border-radius:18px;background:#fff1f3;border:1px solid #f3c2ca;border-left:4px solid #e5484d;color:#7a1f2e;box-shadow:0 8px 22px rgba(229,72,77,.16);}
+.spts-acct-flag b{font-size:.98rem;color:#5c1220;}
+.spts-acct-flag p{margin:0;font-size:.86rem;line-height:1.45;}
+.spts-acct-flag-links{display:flex;flex-wrap:wrap;gap:8px;}
+.spts-acct-flag-links button{min-height:36px!important;padding:6px 14px!important;font-size:.8rem;background:#fff!important;color:#b02a40!important;border:1px solid #e5484d!important;box-shadow:none!important;}
+.spts-acct-flag-links button.spts-acct-flag-main{background:#e5484d!important;color:#fff!important;}
+.spts-page button.spts-nav-cell:disabled,.spts-page button.spts-nav-cell:disabled:hover{opacity:.38;cursor:not-allowed;color:var(--muted)!important;border-color:var(--line)!important;box-shadow:none!important;transform:none;}

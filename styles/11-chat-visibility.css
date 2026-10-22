@@ -1,0 +1,73 @@
+.spts-public .spts-chat,
+.spts-public .spts-chat * {
+  text-shadow: none;
+}
+
+.spts-public .spts-chat-bubble,
+.spts-public .spts-chat-bubble p,
+.spts-public .spts-chat-bubble span,
+.spts-public .spts-chat-bubble div {
+  color: var(--white) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.spts-public .spts-chat-me .spts-chat-bubble,
+.spts-public .spts-chat-me .spts-chat-bubble p,
+.spts-public .spts-chat-me .spts-chat-bubble span,
+.spts-public .spts-chat-me .spts-chat-bubble div {
+  color: #f4fbff !important;
+  background: rgba(91,124,250,.075) !important;
+}
+
+.spts-public .spts-chat-row:not(.spts-chat-me) .spts-chat-bubble {
+  color: #f5f7fa !important;
+  background: #ffffff !important;
+}
+
+.spts-public .spts-chat-meta,
+.spts-public .spts-chat-bubble .spts-chat-meta {
+  color: var(--muted) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.spts-public .spts-chat-compose textarea {
+  color: var(--white) !important;
+  -webkit-text-fill-color: var(--white) !important;
+  caret-color: var(--cyan);
+  opacity: 1 !important;
+}
+
+.spts-public .spts-chat-compose textarea::placeholder {
+  color: var(--muted) !important;
+  -webkit-text-fill-color: var(--muted) !important;
+  opacity: 1 !important;
+}
+
+.spts-public .spts-chat-head,
+.spts-public .spts-chat-head strong,
+.spts-public .spts-chat-head small {
+  color: var(--white);
+  opacity: 1;
+  visibility: visible;
+}
+
+.spts-public .spts-chat-foot,
+.spts-public .spts-chat-foot * {
+  color: var(--faint) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.spts-public .spts-chat button {
+  color: var(--cyan) !important;
+  -webkit-text-fill-color: var(--cyan);
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.spts-public .spts-chat-send {
+  color: var(--cyan) !important;
+  background: transparent !important;
+}
