@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <meta name="application-name" content="PN" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="PN" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f4f6fb" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon-512.png" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <title>Profile Network (PN) | Your profile, shop and Digital CV in one link</title>
+    <meta
+      name="description"
+      content="Profile Network is a free app for building a public profile with posts, a shop and a Digital CV, and sharing it all with one link. Works offline."
+    />
+    <meta name="author" content="Profile Network" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Profile Network" />
+    <meta property="og:title" content="Profile Network (PN) | Your profile, shop and Digital CV in one link" />
+    <meta
+      property="og:description"
+      content="Build a public profile with posts, a shop and a Digital CV, receive private messages from visitors, and share it all with one link."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="/icons/icon-512.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Profile Network app icon" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Profile Network (PN)" />
+    <meta
+      name="twitter:description"
+      content="One link for your profile, posts, shop and Digital CV, with private messages from visitors. Works offline."
+    />
+    <meta name="twitter:image" content="/icons/icon-512.png" />
+    <meta name="twitter:image:alt" content="Profile Network app icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Profile Network",
+      "alternateName": "PN",
+      "description": "A free app for building a public profile with posts, a shop and a Digital CV, receiving private messages from visitors, and sharing everything with one link.",
+      "applicationCategory": "SocialNetworkingApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires a modern browser",
+      "inLanguage": "en",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "featureList": "Public profile, posts, private inbox, shop, Digital CV, offline use"
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <main style="max-width:560px;margin:40px auto;padding:0 20px;font-family:system-ui,sans-serif;line-height:1.5">
+        <h1>Profile Network (PN)</h1>
+        <p>Build a public profile with posts, a shop and a Digital CV, receive private messages from visitors, and share it all with one link.</p>
+        <p>Profile Network needs JavaScript to run. Please turn it on in your browser and reload this page.</p>
+      </main>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
